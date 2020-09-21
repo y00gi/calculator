@@ -98,5 +98,6 @@ button:nth-child(20){
 @media (max-width: 960px){
 	#container{
 		width: auto;
+		height: 550px;
 	}
 }
