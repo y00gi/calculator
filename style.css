@@ -5,11 +5,32 @@
 }
 
 body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #FEE823;
+    height: 100vh;
+    overflow: auto;
+}
+
+.calculator {
+    /* background-color: azure; */
+    height: 500px;
+    width: 300px;
+    box-shadow: #C8AEAA 0px 3px 8px;
+    border-radius: 30px;
 }
 
 .result {
+    height: 180px;
+    width: 300px;
     background-color: #f7e7e7;
-    width: 100px;
-    height: 100px;
+    border-radius: 30px 30px 0 0;
+}
+
+.number {
+    height: 320px;
+    width: 300px;
+    background-color: azure;
+    border-radius: 0 0 30px 30px;
 }
