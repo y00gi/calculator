@@ -37,13 +37,17 @@ body{
 .number {
     height: 320px;
     width: 300px;
-    background-color: azure;
+    background-color: #fff;
+    border-radius: 0 0 30px 30px;
     display: grid;
     grid-template-columns: 80px 70px 70px 80px;
 }
 
 .number>button{
     font-size: 1.5rem;
+    border-radius: 30px;
+    border-style: none;
+    background-color: #fff;
 }
 
 .equal{
