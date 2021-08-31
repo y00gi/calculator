@@ -21,8 +21,9 @@ body{
     border-radius: 30px;
 }
 
-.calculator>button :hover{
+.number :hover{
     background-color: #a9a9a9;
+    cursor: pointer;
 }
 
 .result {
